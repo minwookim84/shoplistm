@@ -2,9 +2,9 @@ $(document).ready(function(){
 	
 	//add item
 	// Question: Delcaring variable here doesn't work...why?
-	/* 
+	 
 	var listitem = $('<li class="shop-items"><div class="icon check"></div><span>'+$("input").val()+'</span><div class="icon removeIcon"></div></li>');
-	*/
+	
 	$('input').click(function(){
 		$('.alert').slideUp('fast');
 	});
@@ -15,7 +15,7 @@ $(document).ready(function(){
 			$('input').focus();
 		} else {
 			add.preventDefault();
-		var listitem = $('<li class="shop-items"><div class="icon check"></div><span>'+$("input").val()+'</span><div class="icon removeIcon"></div></li>');
+		/* var listitem = $('<li class="shop-items"><div class="icon check"></div><span>'+$("input").val()+'</span><div class="icon removeIcon"></div></li>'); */
 		$('.shopping-list').find('ul').append(listitem);
 		$('input').val("");
 		}
