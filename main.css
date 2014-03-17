@@ -1,0 +1,98 @@
+body{
+	font-size:16px;
+}
+
+.masthead{
+	margin-top:2em;
+	text-align:center;
+}
+
+
+#addToCart{
+	width:33em;
+	height:3em;
+	margin:auto;
+	margin-top:1em;
+	margin-bottom:2em;
+}
+
+.listinput{
+	width:30em;
+	height:2em;
+	font-size:1em;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+button{
+	cursor:pointer;
+	width:32px;
+	height:32px;
+	border-radius:16px;
+	vertical-align:middle;
+	background-repeat:no-repeat;
+}
+
+#add{
+	background-color:#518c63;
+	background-image:url('images/addtocart.png');
+	background-size:22px 17px;
+	background-position:4px 7px;
+}
+
+.icon{
+	display:inline-block;
+	cursor:pointer;
+	width:2em;
+	height:2em;
+	vertical-align:middle;
+	background-position:center;
+	background-repeat:no-repeat;
+	border-radius:1em;
+}
+
+.addIcon{
+	background-color:#518c63;
+	background-image:url('images/addtocart.png');
+	background-size: 1.5em 1.2em;
+	float:right;
+}
+
+.shop-items{
+	width:33em;
+	margin:auto;
+	margin-bottom:1.5em;
+}
+
+.check{
+	background-image:url('images/check.png');	
+	background-size:2em 2em;
+}
+
+.checked-item{
+	text-decoration:line-through;
+	color:#cccccc;
+}
+
+.removeIcon{
+	background-color:#e62b2f;
+	background-image:url('images/removefromcart.png');
+	background-size: 2em 1.5em;
+	float:right;
+}
+
+.alert{
+	display:none;
+	width:500px;
+	height:32px;
+	line-height:32px;
+	font-size:16px;
+	text-align:center;
+	margin:auto;
+	margin-top:-2em;
+	margin-bottom:1em;
+	border-radius:10px;
+	background-color:#990000;
+	color:#ffffff;
+	vertical-align:middle;
+}
